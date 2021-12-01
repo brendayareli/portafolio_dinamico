@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Open+sans:400,700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4c88295d82.js"></script>
+    <link rel="stylesheet" href="estilos.css">
+
+
+    <meta name=" theme-color " content=" # F0DB4F ">
+    <meta name=" MobileOptimized " content="width">
+    <meta name=" HandheldFriendly " content="true">
+    <meta name=" apple-mobile-web-app-enabled " content=" yes ">
+    <meta name=" apple-mobile-web-app-status-bar-style " content=" black-translucent ">
+    <link rel=" shortcut icon " type="image/jpg" href="./img/by.jpg">
+    <link rel=" apple-touch-icon " href=" ./by.jpg ">
+    <link rel=" apple-touch-startup-image " href=" ./by.jpg ">
+    <link rel="manifest" href="./manifest.json">
+
+
+
+
+    <title>Portafolio Dinamico - Brenda Yareli</title>
+</head>
+
+<body>
+
+    <div class="contenedor">
+        <header>
+            <div class="logo">
+                <h1>Brenda Yareli Covarrubias Ponce</h1>
+                <p>Tecnico Superior Universitario</p>
+            </div>
+            <form action="">
+                <input type="text" class="barra-busqueda" id="barra-busqueda" placeholder="Buscar">
+
+            </form>
+            <div class="categorias" id="categorias">
+                <a href="#" class="activo">Todos</a>
+                <a href="#">Personal</a>
+                <a href="#">TSU</a>
+                <a href="#">Paginas</a>
+                <a href="#">Cursos</a>
+
+            </div>
+        </header>
+
+        <section class="grid" id="grid">
+
+            <div class="item" data-categoria="personal" data-etiquetas="yareli brenda chica" data-descripcion="1.-Lorem ipsum dolor sit amet consectetur.">
+
+                <div class="item-contenido">
+                    <img src="img/yarelii1.jpeg" alt="">
+                </div>
+            </div>
+
+            <div class="item" data-categoria="personal" data-etiquetas="yareli brenda chica" data-descripcion="1.-Lorem ipsum dolor sit amet consectetur.">
+
+                <div class="item-contenido">
+                    <img src="img/yar.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="item" data-categoria="personal" data-etiquetas="yareli brenda chica" data-descripcion="1.-Lorem ipsum dolor sit amet consectetur.">
+
+                <div class="item-contenido">
+                    <img src="img/yarelii2.png" alt="">
+                </div>
+            </div>
+
+            <div class="item" data-categoria="tsu" data-etiquetas="amigos fotos compañeros graduacion" data-descripcion="1.-Lorem ipsum dolor sit amet consectetur.">
+
+                <div class="item-contenido">
+                    <img src="img/amigos2.png" alt="">
+                </div>
+            </div>
+
+            <div class="item" data-categoria="tsu" data-etiquetas="amigos fotos compañeros graduacion" data-descripcion="1.-Lorem ipsum dolor sit amet consectetur.">
+
+                <div class="item-contenido">
+                    <img src="img/amigos3.png" alt="">
+                </div>
+            </div>
+
+            <div class="item" data-categoria="tsu" data-etiquetas="amigos fotos compañeros graduacion" data-descripcion="1.-Lorem ipsum dolor sit amet consectetur.">
+
+                <div class="item-contenido">
+                    <img src="img/yo.jpg" alt="">
+                </div>
+            </div>
+
+
+
+
+
+
+
+            <div class="item" data-categoria="páginas" data-etiquetas="paginas sitios mobiliario pagina web" data-descripcion="1.-Lorem ipsum dolor sit amet consectetur.">
+
+                <div class="item-contenido">
+                    <img src="img/pagina1.jpeg" alt="">
+                </div>
+            </div>
+
+            <div class="item" data-categoria="páginas" data-etiquetas="paginas sitios mobiliario pagina web" data-descripcion="1.-Lorem ipsum dolor sit amet consectetur.">
+
+                <div class="item-contenido">
+                    <img src="img/pagina2.jpeg" alt="">
+                </div>
+            </div>
+
+
+
+
+            <div class="item" data-categoria="cursos" data-etiquetas="cursos cisco diplomas certificados " data-descripcion="1.-Lorem ipsum dolor sit amet consectetur.">
+
+                <div class="item-contenido">
+                    <img src="img/curso1.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="item" data-categoria="cursos" data-etiquetas="cursos cisco diplomas certificados  " data-descripcion="1.-Lorem ipsum dolor sit amet consectetur.">
+
+                <div class="item-contenido">
+                    <img src="img/curso2.png" alt="">
+                </div>
+            </div>
+
+            <div class="item" data-categoria="cursos" data-etiquetas="cursos cisco diplomas certificados  " data-descripcion="1.-Lorem ipsum dolor sit amet consectetur.">
+
+                <div class="item-contenido">
+                    <img src="img/cursoo3.png" alt="">
+                </div>
+            </div>
+
+            <div class="item" data-categoria="cursos" data-etiquetas="cursos cisco diplomas certificados  " data-descripcion="1.-Lorem ipsum dolor sit amet consectetur.">
+
+                <div class="item-contenido">
+                    <img src="img/curso4.png" alt="">
+                </div>
+            </div>
+
+            <div class="item" data-categoria="cursos" data-etiquetas="cursos cisco diplomas certificados  " data-descripcion="1.-Lorem ipsum dolor sit amet consectetur.">
+
+                <div class="item-contenido">
+                    <img src="img/curso7.png" alt="">
+                </div>
+            </div>
+
+
+        </section>
+
+        <section class="overlay" id="overlay">
+            <div class="contenedor-img">
+                <button id="btn-cerrar-popup"><i class="fas fa-times"></i></button>
+                <img src="" alt="">
+            </div>
+            <p class="descripcion"></p>
+        </section>
+
+        <footer class="contenedor">
+            <div class="redes-sociales">
+                <div class="contenedor-icono">
+                    <a href="https://www.facebook.com/profile.php?id=100009034203723" target="blank" class="facebook">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                </div>
+
+
+                <div class="contenedor-icono">
+                    <a href="http://www.instagram.com./yarelicovarrubias" target="blank" class="instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+
+            </div>
+            <div class="creado-por">
+                <p>Sitio creado por Brenda Yareli Covarrubias Ponce</p>
+            </div>
+
+        </footer>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/web-animations-js@2.3.2/web-animations.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/muuri@0.9.5/dist/muuri.min.js"></script>
+    <script src="main.js"></script>
+
+</body>
+
+</html>
